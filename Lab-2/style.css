@@ -1,0 +1,85 @@
+.positionPicture {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+.bigCircle {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+  border: 20px solid black;
+  background: transparent;
+  border-radius: 50%;
+}
+
+.smallCircle {
+  position: absolute;
+  left: 75px;
+  top: 75px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+}
+
+.horizontalLine {
+  position: absolute;
+  top: 95px;
+  width: 200px;
+  height: 10px;
+  background: black;
+}
+
+.verticalLine {
+  position: absolute;
+  left: 95px;
+  width: 10px;
+  height: 200px;
+  background: black;
+}
+
+.transformPicture {
+  height: 200px;
+  width: 200px;
+}
+
+.transformBigCircle {
+  width: 100px;
+  height: 100px;
+  border: 20px solid black;
+  background: transparent;
+  border-radius: 50%;
+  transform: translate(30px, 30px);
+}
+
+.transformSmallCircle {
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  transform: translate(75px, -65px);
+}
+
+.transformHorizontalLine {
+  width: 200px;
+  height: 10px;
+  background: black;
+  transform: translate(0px, -95px);
+}
+
+.transformVerticalLine {
+  width: 10px;
+  height: 200px;
+  background: black;
+  transform: translate(95px, -200px);
+}
+
+
+

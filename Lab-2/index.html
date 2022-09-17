@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Лабораторна №2 Дивнича Максима," />
+    <meta name="keywords" content="Дивнич, Максим, Лабораторна" />
+    <title>Дивнич М. В., ІО-02, Лабораторна №2, Варіант 44.</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      table {
+        border-collapse: collapse;
+        border: 3px solid black;
+        width: 40%;
+        font-size: 18px;
+        text-align: center;
+      }
+
+      th,
+      td {
+        border: 2px solid black;
+        padding: 7px 30px;
+      }
+
+      tr:nth-child(1) {
+        background-color: #448f8f;
+      }
+
+      tr:nth-child(2) {
+        background-color: #f5f544;
+      }
+
+      tr:nth-child(1):hover {
+        background-color: #e3661e;
+        color: white;
+      }
+
+      tr:nth-child(2):hover {
+        background-color: #7e1ee3;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <!--Це перший ряд таблиці:-->
+        <tr>
+          <td>Дивнич</td>
+          <td>Максим</td>
+          <td rowspan="2">Васильович</td>
+          <td>&nbsp;</td>
+          <td rowspan="2">&nbsp;</td>
+        </tr>
+
+        <!--Це другий ряд таблиці:-->
+        <tr>
+          <td colspan="2">ІО-02</td>
+          <td>ЛР-2, Варіант-44</td>
+        </tr>
+
+        <!--Це третій ряд таблиці:-->
+        <tr>
+          <td colspan="2">&nbsp;</td>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+    <h1>Position</h1>
+    <div class="positionPicture">
+      <div class="bigCircle"></div>
+      <div class="smallCircle"></div>
+      <div class="horizontalLine"></div>
+      <div class="verticalLine"></div>
+    </div>
+    <h1>Transform</h1>
+    <div class="transformPicture">
+      <div class="transformBigCircle"></div>
+      <div class="transformSmallCircle"></div>
+      <div class="transformHorizontalLine"></div>
+      <div class="transformVerticalLine"></div>
+    </div>
+  </body>
+</html>
