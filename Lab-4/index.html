@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Лабораторна №4 Дивнича Максима," />
+    <meta name="keywords" content="Дивнич, Максим, Лабораторна" />
+    <title>Дивнич М. В., ІО-02, Лабораторна №4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="info">
+      <h2>Дивнич Максим Васильович</h2>
+
+      <p>Місце народження: 22 грудня, 2002 року, с. Ковтуни (Черкаська обл.)</p>
+      <p>Освіта: Ковтунівський НВК, с. Ковтуни; НТУУ "КПІ", м. Київ</p>
+
+      <p>Хоббі:</p>
+      <ul>
+        <li id="firstHobby" onclick="paintText1();">Заняття спортом</li>
+        <li class="secondHobby" onclick="paintText2();">Програмування</li>
+        <li>Перегляд фільмів</li>
+        <li>Читання книг</li>
+        <li>Комп'ютерні ігри</li>
+      </ul>
+
+      <p>Улюблені фільми:</p>
+      <ol>
+        <li>Втеча із Шоушенка</li>
+        <li>Зелена миля</li>
+        <li>Початок</li>
+        <li>Великий куш</li>
+        <li>Відступники</li>
+      </ol>
+
+      <p>
+        Київ — столиця та найбільше місто України, одне з найбільших і
+        найстаріших міст Європи. Розташований у середній течії Дніпра, у
+        північній Наддніпрянщині. Політичний, соціально-економічний,
+        транспортний, освітньо-науковий, історичний, культурний та духовний
+        центр України. У системі адміністративно-територіального устрою України
+        Київ має спеціальний статус, визначений Конституцією, і не входить до
+        складу жодної області, хоча і є адміністративним центром Київської
+        області. Місце розташування центральних органів влади України, іноземних
+        місій, штаб-квартир більшості підприємств і громадських об'єднань, що
+        працюють в Україні.
+      </p>
+
+      <a href="https://kyivcity.gov.ua" target="_blank"
+        ><img
+          src="photo-kyiv.jpg"
+          alt="Фото м. Київ"
+          height="400px"
+          width="600px"
+      /></a>
+      <hr />
+
+      <div>
+        <button class="buttonImage" id="add" onclick="add();">Додати</button>
+        <button
+          class="buttonImage"
+          id="increase"
+          onclick="increase();"
+          disabled
+        >
+          Збільшити
+        </button>
+        <button class="buttonImage" id="reduce" onclick="reduce();" disabled>
+          Зменшити
+        </button>
+        <button class="buttonImage" id="remove" onclick="remove();" disabled>
+          Видалити
+        </button>
+        <p><img id="picture" /></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
