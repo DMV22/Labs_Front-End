@@ -38,7 +38,7 @@ class Person {
     user.id = 'user';
 
     const picture = document.createElement('img');
-    picture.src = this.picture.medium;
+    picture.src = this.picture.large;
     user.appendChild(picture);
 
     const name = document.createElement('span');
