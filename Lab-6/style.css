@@ -54,8 +54,6 @@ span {
 }
 
 img {
-  width: 90px;
-  height: 90px;
   padding: 10px;
   border-radius: 30%;
   object-fit: cover;
