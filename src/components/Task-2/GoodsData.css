@@ -1,0 +1,12 @@
+.goodsData {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+  text-decoration: underline;
+}
