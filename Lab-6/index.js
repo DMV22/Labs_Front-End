@@ -25,7 +25,7 @@ function removeUsers() {
 }
 
 class Person {
-  constructor(picture, name, city, phone, postcode) {
+  constructor(picture, name, city, postcode, phone) {
     this.picture = picture;
     this.name = name;
     this.city = city;
@@ -61,5 +61,3 @@ class Person {
     console.log(this.picture, `${this.name.title} ${this.name.first} ${this.name.last}`, this.city, this.postcode, this.phone);
   }
 }
-
-
